@@ -32,7 +32,7 @@ const tabComponent = computed(() => {
 
     <span
       :class="[
-        'text-nowrap ml-3 text-gray-400 font-semibold ',
+        'text-nowrap ml-2 text-gray-400 font-semibold text-sm',
         tabComponent == 'router-link' && 'hover:text-white transition-colors',
       ]"
     >

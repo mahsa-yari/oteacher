@@ -18,18 +18,18 @@ const config: NuxtConfig = {
         { name: "format-detection", content: "telephone=no" },
         {
           name: "og:title",
-          content: "Wanderlust - Turpal",
+          content: "OTeacher",
         },
         {
           hid: "description",
           name: "description",
-          content: "Explore UAE's Top Tours & Activities",
+          content: "OTeacher",
         },
         {
           name: "og:description",
-          content: "Explore UAE's Top Tours & Activities",
+          content: "OTeacher",
         },
-        { name: "og:site_name", content: "Wanderlust - Turpal" },
+        { name: "og:site_name", content: "OTeacher" },
         {
           name: "viewport",
           content:

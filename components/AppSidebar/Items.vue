@@ -12,7 +12,7 @@ const sidebarItem = defineProps<SidebarItem>();
     <li
       v-for="sidebarItem in sidebarItem.children"
       :key="sidebarItem.id"
-      class="pl-2"
+      class="pl-3"
     >
       <AppSidebarItems v-bind="sidebarItem" />
     </li>
